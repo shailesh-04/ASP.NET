@@ -12,26 +12,16 @@ public partial class _Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        ListBox1.Items.Add("Asp");
-        ListBox1.Items.Add("VB");
-        ListBox1.Items.Add("C#");
-        ListBox1.Items.Add("JSP");
-        ListBox2.Items.Add("PHP");
-        ListBox2.Items.Add("JAVA");
-        ListBox2.Items.Add("html");
-        ListBox2.Items.Add("Js");
 
     }
-    protected void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
-    {
 
-    }
-    protected void ListBox2_SelectedIndexChanged(object sender, EventArgs e)
+    protected void Button1_Click(object sender, EventArgs e)
     {
-
+        ViewState["create"] = TextBox1.Text;
+        TextBox1.Text = "";
     }
     protected void Button2_Click(object sender, EventArgs e)
     {
-
+        TextBox1.Text = ViewState["create"].ToString();
     }
 }
