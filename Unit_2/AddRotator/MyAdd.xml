@@ -1,0 +1,32 @@
+
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/img/img24.jpg</ImageUrl>
+    <NavigationUrl>https://www.google.com</NavigationUrl>
+    <AlternaeText>Image Not Found</AlternaeText>
+    <Imapressions>100</Imapressions>
+    <keyword>shalesh-04</keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/img/img25.jpg</ImageUrl>
+    <NavigateUrl>https://www.google.com</NavigateUrl>
+    <AlternaeText>Image Not Found</AlternaeText>
+    <Imapressions>50</Imapressions>
+    <keyword>bca</keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/img/img26.jpg</ImageUrl>
+    <NavigationUrl>https://www.google.com</NavigationUrl>
+    <AlternaeText>Image Not Found</AlternaeText>
+    <Imapressions>100</Imapressions>
+    <keyword>sem-5</keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/img/img27.jpg</ImageUrl>
+    <NavigationUrl>https://www.google.com</NavigationUrl>
+    <AlternaeText>Image Not Found</AlternaeText>
+    <Imapressions>100</Imapressions>
+    <keyword>kbpccs</keyword>
+  </Ad>
+</Advertisements>
