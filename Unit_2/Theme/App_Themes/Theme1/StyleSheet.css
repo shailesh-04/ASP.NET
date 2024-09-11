@@ -1,0 +1,73 @@
+﻿*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;	
+}
+body 
+{
+	font-family:Sans-Serif;
+}
+#form1
+{
+	height:100vh;
+	background-color:#223;
+	color:#fff;
+}
+.header
+{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:2rem 3rem;
+}
+.logo
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	gap:.5rem;
+	color:#fff;
+	font-size:2rem;
+	text-decoration:none;
+	& i
+	{
+		font-size:3rem;
+	}
+}
+.nav
+{
+	display:flex;
+	align-items:center;
+	gap:1.5rem;
+}
+.nav a
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-decoration:none;
+	gap:.5rem;
+	color:#fff;
+	
+}
+.login
+{
+	color:red !important;
+	& i
+	{
+		font-size:2rem;
+	}
+}
+.getstart
+{
+	border:1px solid #fff;
+	padding:.7rem;
+	border-radius:5px;
+	}
+	
+	
+.main h1
+{
+	font-size:4srem;
+	}
