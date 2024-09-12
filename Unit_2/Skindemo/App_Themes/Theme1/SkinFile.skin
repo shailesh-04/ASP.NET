@@ -1,0 +1,19 @@
+<asp:Label runat="server" style="
+        color:#9999ff;
+        " ></asp:Label>
+        
+<asp:TextBox  runat="server" style="
+        
+        color:#fff;
+        padding:6px;
+        border-radius:10px;
+        border:1px solid #666;
+        " ></asp:TextBox>
+        
+        <asp:Button  runat="server" Text="Button" style="
+        background-color:#9988ff;
+        color:#fff;
+        padding:10px;
+        border-radius:10px;
+        border:none;
+        " />
